@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Ressources/RPO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+#container {
+    background-color:skyblue;
+    opacity: 93%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 75px;
+    /* height:1850px; */
+    height: auto;
+}
+
+#entete {
+    background-color: rgb(52, 26, 150, 0.75);
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    display: grid;
+    grid-template-columns: 1/3 1/3 1/3;
+    grid-template-rows: 100% ;
+}
+
+#resistance {
+    margin: 0 auto;
+    height: 150px;
+    display: block;
+    padding: 10px;
+}
+
+#menu {
+    display: inline-block;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+
+}
+
+#menuImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+    opacity: 75%;
+    box-shadow: 7px 7px 10px 5px rgba(255, 255, 255, 0.685);
+    position: absolute;
+}
+
+nav {
+    display: none;
+    width: 150px;
+}
+
+a:hover {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-shadow: grey 5px 5px 5px;
+}
+
+.show {
+    display: block;
+    position: absolute;
+}
+
+ul {
+    position: relative;
+    margin-top: 120px;
+    z-index: 1;
+}
+
+li {
+    list-style: none;
+    margin-top: 25px;
+    font-family: Orbitron;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+li a{
+    color: rgb(19, 255, 243);
+    text-decoration: none;
+}
+
+.ligne {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 75px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    top: 25px;
+    font-family: Orbitron;
+    border: solid rgb(52, 26, 150, 0.75) 5px;
+    border-radius: 50px;
+    width: 400px;
+    height:auto;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Orbitron;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+#tableau {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#tableau td {
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:black;
+    font-weight:bold;
+    background-color: white;
+}
+
+#galerie img {
+    width: 200px;
+    height:130px;
+}
+
+#photos {
+    margin: 10% 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+#photos img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border:solid rgba(255, 217, 0, 0.623) 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#photos img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#bastete {
+    background-color: rgb(52, 26, 150, 0.75);
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    display: grid;
+    grid-template-columns: 1/3 1/3 1/3;
+    grid-template-rows: 100% ;
+}
+
+#simplon {
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
